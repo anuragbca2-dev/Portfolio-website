@@ -1,0 +1,129 @@
+
+                                   /* Style Sheet for Portfolio Website */
+                                        /* design index.html */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    justify-content: space-around;
+    color: white;
+    /* background-color: rgb(66, 2, 66); */
+    background-image: linear-gradient(to right,rgb(33,2,76),rgb(52,7,188));
+    padding: 17px 0;
+}
+.logo{
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    
+}
+nav ul{
+    display: flex;
+    gap: 17px;
+}
+nav ul li{
+    list-style-type: none;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-family: 'Iosevka Charon Mono', monospace;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+nav ul li a:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 10px white;
+}
+.hero{
+    background-image: linear-gradient(to right,rgb(151,232,162),rgb(159,115,248));
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.hero-left{
+    display: flex;
+flex-direction: column;
+gap: 11px;
+align-items: center;
+
+}
+.hero-left .one{
+    font-size: 60px;
+    color: purple;
+    font-weight: bold;
+}
+.hero-left .two{
+    font-size: 40px;
+
+}
+.hero-right img{
+    border-radius: 14px;
+}
+.btn
+{
+    background-color: rgb(147, 3, 147);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.btn:hover{
+    background-color: rgb(59,54,200)
+}
+.project{
+    display: flex;
+    align-items: center;
+    border-top: 2px black;
+    padding: 1px;
+    background-image: linear-gradient(to right,rgb(191, 191, 239),rgb(173,233,194));
+
+}
+.project-image img{
+    width: 49.5vw;
+    padding: 4px 0;
+    margin: 35px;
+    border-radius: 100px;
+
+}
+.project-info{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+}
+.project-info .text{
+    font-size: 27px;
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.project-info p{
+    padding: 12px 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.row-reverse{
+    flex-direction: row-reverse;
+}
+footer{
+    background-color: rgb(19,2,44);
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+                                                  /* design about.html */
+                                                  
+                                                    
